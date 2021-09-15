@@ -17,10 +17,8 @@ let inputArr = process.argv.slice(2);
 let command = inputArr[0];
 switch (command) {
     case "tree":
-        // node main.js tree "C:\CODING\JavaScript\Module_1_FS"   
         treeObj.treefxn(inputArr[1]);
         break;
-        //  input -> node main.js organize "C:\Users\Ritik Singh\Desktop\Batches\PP_12_21\JS\Module_1_FS\randomFolder"
     case "organize":
         organizeObj.organizefxn(inputArr[1])
         break;
