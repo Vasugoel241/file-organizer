@@ -21,5 +21,5 @@ console.log("`````````````````");
     console.log(completePath);
 }
 module.exports = {
-    treeFn: tree
+    treeFn: treeFn
 }
